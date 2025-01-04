@@ -1,0 +1,40 @@
+@media screen and(max-width: 768px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        height: 100vh;
+        width: 70vw;
+    }
+    .wrapper {
+       justify-content: center;
+        width: 90%;
+        padding: 1rem;
+       align-items: center;
+       margin-left: 150px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 2px;
+        text-decoration: underline;
+    }
+    .drop-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 90%;
+        gap: 1px;
+    }
+    }
+    form :where(input, select, button) {
+        font-size: 0.9rem;
+        height: 40px;
+    }
+
+.select-box {
+    margin: 0 2px;
+}

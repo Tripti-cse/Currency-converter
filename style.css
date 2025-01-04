@@ -26,6 +26,7 @@ body{
 h1{
     margin-bottom: 1rem;
     color: rgb(37, 41, 128);
+    text-decoration: underline;
 }
 
 .wrapper form{
@@ -105,86 +106,3 @@ form button{
     cursor: pointer;
     color: white;
 }
-/* }
-.container{
-  background-color: aliceblue;
-  height: fit-content;
-  width: fit-content;
-  padding: 1rem 1rem 2rem 1rem;
-  border-radius: 1rem;
-  border: 1px solid rgb(251, 0, 255);
-  background-color: rgba(232, 213, 198, 0.768);
-  scale: 1.1;
-  margin: 0 auto;
-  margin-top: 4rem;
-}
-.container:hover{
-    scale: 1.2;
-    transition-duration: 200ms;
-}
-h1{
-    margin-bottom: 1rem;
-    color: rgb(37, 41, 128);
-}
-.options{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-p{
-    align-items: center;
-}
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#countryName #toCountry{
-    display: flex;
-    border: 1px solid black;
-    border-radius: .1rem;
-    gap: 12px;
-} 
-img {
-    max-width: 25px;
-    width: 1.9rem;
-    height: 1.9rem;
-}
-input{
-    width: 80%;
-    text-align: center;
-    padding: 0.2rem 0rem 0.2rem 0rem;
-    cursor: text;
-}
-i{
-    margin-left: 0.9rem;
-    margin-right: 0.9rem;
-    padding-top: 1rem;
-}
-select{
-    padding: 0.4rem 0.5rem;
-    background-color: rgba(236, 172, 220, 0.277);
-    border-radius: 5px;
-    border: none;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-#rate-msg{
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-} */
-/* button{
-    margin-top: 1rem;
-    width: fit-content;
-    justify-content: center;
-    background-color: rgb(140, 65, 206);
-    padding: .5rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    color: white;
-} */
